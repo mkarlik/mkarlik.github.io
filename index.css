@@ -1,38 +1,37 @@
-html {
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
       height: 100%;
     }
     body {
        height: 100%;
-       background:#dfca9f;
     }
-
     header {
-        background:#de9fdf;
-        padding:5px;
-        font-size: 20px;
-        display: block;
-        width: 790px;
-        float: right;
-        text-align: center;
-        border: 3px solid red;
-    }
-    h1 { float: none;
+      background-color:#fbf98e;
+      padding:5px;
+      border:5px solid #000000;
+      margin: ;
+      font-size:20px;
+      text-align: center;
+      display: block;
+      width: 790px;
     }
     nav {
-        line-height:;
-        background-color:;
-        width:125px;
+        line-height:25px;
+        border: 3px solid #000000;
+        background-color:#fbf98e;
+        width:175px;
         display: inline-block;
         vertical-align: top;
     }
     nav ul {
-      padding:0 1.5em 0 1.5em;
-      float: left;
         list-style-type: none;
+        vertical-align: bottom;
     }
     a {
-        color: ;
-        border: #9fa4df;
+        color: #000000;
     }
     section {
         width: 516px;
@@ -42,23 +41,9 @@ html {
       width: 125px;
       display: inline-block;
       vertical-align: top;
-      background-color:;
-      font-size: ;
+      background-color:#000000;
+      font-size: 15px;
     }
     aside ul {
         list-style-type: none;
     }
-    footer {
-        width: 790px;
-        background-color:;
-        text-align:;
-        padding:5px;
-        display: block;
-    }
-.speciallNav {color: purple;
-}
-img {
-   border: 10px solid #9fa4df;
-   width: 70%;
-   float: right;
- }
